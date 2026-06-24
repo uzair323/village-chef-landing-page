@@ -1,0 +1,126 @@
+:root {
+    --bs-primary: #F7B41A;
+    --bs-primaryclick: #bc8a17;
+}
+
+.nav-bg-color {
+    background-color: #000;
+}
+
+.nav-font {
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-font:hover,
+.nav-font:focus {
+    font-family: "Poppins", sans-serif;
+    color: #635959;
+}
+
+.nav-btn {
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    background-color: #000;
+    border-color: #F7B41A;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+    background-color: #F7B41A;
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-color {
+    background-color: #000;
+    /* min-height: 100vh; */
+}
+
+.font-head {
+    font-family: "Contrail One", sans-serif;
+    font-size: 5rem;
+    color: #FFFFFF;
+}
+
+.font-head-color {
+    color: #F7B41A;
+}
+
+.font {
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+
+.start-button {
+    background-color: var(--bs-primary) !important;
+    border: var(--bs-primary) !important;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+}
+
+.start-button:hover,
+.start-button:focus {
+    background-color: var(--bs-primaryclick) !important;
+    border: var(--bs-primaryclick) !important;
+}
+
+@media(max-width:992px) {
+
+    .font-head {
+        font-family: "Contrail One", sans-serif;
+        font-size: 2.5rem;
+        color: #FFFFFF;
+    }
+
+    .start-button {
+        background-color: var(--bs-primary) !important;
+        border: var(--bs-primary) !important;
+        font-family: "Poppins", sans-serif;
+        color: #FFFFFF;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width:768px) {
+    .logo {
+        margin-left: 3rem;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .font-head {
+        font-family: "Contrail One", sans-serif;
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+
+    .start-button {
+        background-color: var(--bs-primary) !important;
+        border: var(--bs-primary) !important;
+        font-family: "Poppins", sans-serif;
+        color: #FFFFFF;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width:576px) {
+    .logo {
+        margin-left: 3rem;
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .font-head {
+        font-family: "Contrail One", sans-serif;
+        font-size: 1.5rem;
+        color: #FFFFFF;
+    }
+
+    .start-button {
+        background-color: var(--bs-primary) !important;
+        border: var(--bs-primary) !important;
+        font-family: "Poppins", sans-serif;
+        color: #FFFFFF;
+        margin-bottom: 2rem;
+    }
+}
